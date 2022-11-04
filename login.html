@@ -1,0 +1,77 @@
+<html>
+
+<head>
+
+<title>Login and Registration Form Design</title> <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<div class="login-page">
+
+<div class="form">
+
+<form class="register-form">
+
+
+
+<form action="login.html" method="POST">
+
+        <input type="text" name="" placeholder="Enter User Name" id="username">
+        <input type="password" name="" placeholder="Enter Password" id="password">
+        <input type="submit" name="" value="Login" onclick="validate()">
+    </form>
+</form>
+
+</div>
+
+</div>
+
+</body>
+<script>
+function validate(){
+
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    
+    if(username == "Aniket" && password =="123")
+    {
+    alert(window.open("file:///C:/Users/Dell/Desktop/Gym%20Managment/index.html"));
+   // alert('You have logged in Successfullly');
+    
+    return false;
+    
+    }
+    else{
+    
+    alert('Sorry Please check Credentials');
+    }
+    
+    }
+</script>
+<!--
+<script>
+function log(){
+
+var uname = document.getElementById('uname');
+var pass = document.getElementById('psw');
+
+if(uname == "Aniket" && pass =="123")
+{
+alert('You have logged in Successfullly');
+
+return false;
+
+}
+else{
+
+alert('Sorry Please check Credentials');
+}
+
+}
+</script>
+
+-->
+</html>
